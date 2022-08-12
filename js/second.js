@@ -35,17 +35,5 @@ console.log(checker([8, 22, "asd"], 6));
 
 
 
-// const checker = (anyArray, a) => {
-//     return {
-//       exists: anyArray.find((item) => item === a) ? true : false,
-//       index: anyArray.find((item) => item === a)
-//         ? anyArray.findIndex((item) => item === a)
-//         : -1,
-//       allElementsAreNumbers: anyArray.some((item) => isNaN(item)) ? false : true,
-//       someElementsAreNumbers: anyArray.every((item) => isNaN(item))
-//         ? false
-//         : true,
-//     };
-//   };
+
   
-//   console.log(checker([4, 66, "gsd"], 4));

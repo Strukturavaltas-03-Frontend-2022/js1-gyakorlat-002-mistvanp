@@ -23,12 +23,3 @@ console.log(brutto([1, 2, 3, 4, 5, 6, 7, 8]))
 
 
 
-// const brutto = (numericArray) => {
-//   return Math.round(
-//     numericArray
-//       .map((item) => item * 1.27)
-//       .reduce((prevoiusValue, currentValue) => prevoiusValue + currentValue)
-//   );
-// };
-
-// console.log(brutto([2, 5, 8, 12, 19, 25]))
